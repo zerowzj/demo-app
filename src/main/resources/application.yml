@@ -1,0 +1,13 @@
+# Server
+server:
+  # address: 127.0.0.1
+  port: 9090
+# Log
+logging:
+  config: classpath:logback.xml
+# Spring
+spring:
+  application:
+    name: demo-web
+  main:
+    web-application-type: servlet
